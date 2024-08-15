@@ -6,6 +6,16 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+ 
   /* Shared Style */
   .display-flex {
     display: flex;
@@ -22,11 +32,21 @@
 .btn-primary {
     background-color:  #FF900E;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 20px 25px;
     border-radius: 8px;
     border: none;
     font-weight: 600;
+}
+.btn-primary:hover {
+    background-color:  #2180d8d8;
+    transition: .5s;
+}
+.primary-color {
+    color:  #FF900E;
+}
+.light-weight {
+    font-weight: lighter;
 }
 /* Header Style */
 .brand {
@@ -72,4 +92,21 @@
         flex-direction: column;
         gap: 20px;
     }
+}
+/* Teams Section */
+.teams{
+    align-items: center;
+    justify-content: space-between;
+}
+.our-features{
+    max-width: 540px;
+    padding: 20px;
+}
+.feature-title{
+    font-size: 2.8rem;
+}
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
 }

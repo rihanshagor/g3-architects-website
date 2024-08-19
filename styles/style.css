@@ -148,7 +148,7 @@ padding-left: 20px;
     font-weight: 700;
 }
 /* some facts */
-.fact-desription {
+.fact-desription{
     max-width: 540px;
     margin-bottom: 100px;
 }
@@ -215,19 +215,22 @@ margin-top: 20px;
     }
     .facts-container , .sponsors-company {
         justify-items: center;
-        gap: 30px
+        gap: 10px
     ;
     }
 
     #experience-badge {
-        padding: 28px 30px;
-        font-size: 1.5rem;
+        padding: 17px 0px;
+        font-size: 12px;
         font-weight: 500;
-        margin-left: 70px;
-    
+        margin: 0px 70px;
     }
-    .featured-architect img{
+    #featured-architect-img {
         width: 100%;
+    }
+    #experience-year {
+        font-size: 2rem;
+        font-weight: 700;
     }
 
 }
